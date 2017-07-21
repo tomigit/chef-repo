@@ -1,7 +1,9 @@
 # Chef
 .chef/*.pem
-.chef/trusted_certs/*.crt
 .chef/encrypted_data_bag_secret
+
+.chef/*.crt
+.chef/trusted_certs/
 
 # Ruby
 .rake_test_cache
